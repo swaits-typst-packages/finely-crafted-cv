@@ -116,7 +116,7 @@
   let icon_spacing = if icon != none { COMPANY_ICON_SPACING } else { 0em }
   block(
     below: COMPANY_BLOCK_BELOW,
-    breakable: false,
+    breakable: true,
 
     grid(
       columns: (auto, auto, 1fr, auto),
@@ -168,7 +168,7 @@
   block(
     above: JOB_BLOCK_ABOVE,
     below: JOB_BLOCK_BELOW,
-    breakable: false,
+    breakable: true,
 
     // heading
     grid(
